@@ -6,12 +6,25 @@ void main() {
       appBar: AppBar(
         title: Text('MY FIRST APP'),
         centerTitle: true,
+        backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text('Hello, Ninjas'),
+        child: Text(
+          'Hello Ninjas',
+          style: TextStyle(
+            fontSize: 26,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2,
+            color: Colors.grey[1000],
+            fontFamily: 'IndieFlower',
+          ),
+        ),
+
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text('Click')
+        onPressed: () {},
+        child: Text('Click'),
+        backgroundColor: Colors.red[600],
       ),
     ),
 
