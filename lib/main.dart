@@ -35,12 +35,19 @@ class Home extends StatelessWidget {
 //          child: Text('Click me'),
 //          color: Colors.lightBlue
 //        ),
-        child: RaisedButton.icon(
-            onPressed: null,
-            icon: Icon(
-              Icons.mail,
-            ),
-            label: Text('Mail'))
+//        child: RaisedButton.icon(
+//            onPressed: null,
+//            icon: Icon(
+//              Icons.mail,
+//            ),
+//            label: Text('Mail'))
+        child: IconButton(
+          onPressed: () => print('You clicked me'),
+           icon: Icon(
+             Icons.alternate_email,
+             color: Colors.amber,
+           ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
