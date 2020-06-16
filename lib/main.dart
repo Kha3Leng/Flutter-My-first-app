@@ -14,20 +14,15 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('MY FIRST APP'),
         centerTitle: true,
-        backgroundColor: Colors.red[600],
+        backgroundColor: Colors.red[500],
       ),
       body: Center(
-        child: Text(
-          'Hello Ninjas',
-          style: TextStyle(
-            fontSize: 26,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2,
-            color: Colors.grey[1000],
-            fontFamily: 'IndieFlower',
-          ),
-        ),
-
+//        child: Image.network('https://images.unsplash.com/photo-1592035187437-47c0fe77a452?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1391&q=80'),
+//        child: Image(
+//          image: AssetImage('asset/one.jpg'),
+//        ),
+//        child: Image.asset('asset/two.png'),
+          child: Image.network('https://images.unsplash.com/photo-1592035187437-47c0fe77a452?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1391&q=80'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
