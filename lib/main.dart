@@ -23,10 +23,15 @@ class Home extends StatelessWidget {
 //        ),
 //        child: Image.asset('asset/two.png'),
 //          child: Image.network('https://images.unsplash.com/photo-1592035187437-47c0fe77a452?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1391&q=80'),
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.lightBlue,
-          size: 50,
+//        child: Icon(
+//          Icons.airport_shuttle,
+//          color: Colors.lightBlue,
+//          size: 50,
+//        ),
+        child: RaisedButton(
+          onPressed: () {},
+          child: Text('Click me'),
+          color: Colors.lightBlue
         ),
       ),
       floatingActionButton: FloatingActionButton(
